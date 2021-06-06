@@ -24,7 +24,7 @@ $c->getHex(); // b7c1f4f1da849ef2
 Based on https://github.com/shift-reality/php-crypto/blob/newlib/src/Util/UnsignedInt64.php
 
 #### Warninng!
-It has no the integer overflow protection.\
+It has no the integer overflow protection.
 ```
 Overflow:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
