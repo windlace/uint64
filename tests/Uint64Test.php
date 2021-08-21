@@ -2,7 +2,7 @@
 
 namespace Cast\Crypto\uint64\Tests;
 
-use Cast\Crypto\unit64\Uint64 as uint64;
+use Cast\Crypto\uint64\Uint64 as uint64;
 use PHPUnit\Framework\TestCase;
 
 class Uint64Test extends TestCase

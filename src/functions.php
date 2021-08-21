@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Cast\Crypto\unit64;
+namespace Cast\Crypto\uint64;
 
 function uint64($input = '')
 {

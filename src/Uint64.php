@@ -1,6 +1,6 @@
 <?php
 
-namespace Cast\Crypto\unit64;
+namespace Cast\Crypto\uint64;
 
 class Uint64 {
     public $hi;
