@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Cast\Crypto\uint64;
 
+use Cast\Crypto\uint64\Uint64 as uint64;
+
 function uint64($input = '')
 {
     return new uint64($input);
