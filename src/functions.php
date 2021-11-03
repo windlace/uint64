@@ -31,6 +31,18 @@ function SHR($x, $c)
 }
 
 /**
+ * Rotate uint64-number to n-bits left and fill by zero's last n-bits
+ *
+ * @param Uint64 $a
+ * @param int $bits
+ * @return Uint64|mixed
+ */
+function _shl(Uint64 $a, int $bits)
+{
+    return _and(ROTL($a, $bits), sub(new Uint64('ffffffffffffffff'), uint64::new(0, (1 << $bits)-1)));
+}
+
+/**
  * Arithmetic addition
  *
  * @warning It has no the overflow control.
